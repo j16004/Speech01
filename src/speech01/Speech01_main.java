@@ -14,7 +14,7 @@ public class Speech01_main {
 
 	public static void main(String[]args){
 		TextToSpeech synthesizer = new TextToSpeech();
-		   synthesizer.setUsernameAndPassword("da040472-ea3a-4a1c-ae2c-b27bbea7ab0c", "CAdy1BizR6qf");
+		   synthesizer.setUsernameAndPassword("", "");
 		   String translation = "今日は良い天気ですね";
 
 		   SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
